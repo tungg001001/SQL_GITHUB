@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SQL Injection 案例</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header><nav><a class="logo" href="index.html">🛡️ SQL Injection Lab</a><div class="nav"><a href="lesson.html">原理</a><a href="simulator.html">實驗</a><a href="defense.html">防禦</a><a href="quiz.html">測驗</a></div></nav></header>
+<main class="page"><span class="badge">04 · CASE STUDY</span><h1>常見情境</h1>
+<div class="grid2"><div class="panel"><h2>登入驗證</h2><p>應用程式將帳號與密碼直接組合成 SQL，可能讓輸入影響原本的查詢條件。</p></div>
+<div class="panel"><h2>搜尋功能</h2><p>搜尋欄位若直接拼接 SQL，也可能成為注入點。</p></div>
+<div class="panel"><h2>錯誤訊息</h2><p>過度詳細的資料庫錯誤可能洩漏表格、欄位或資料庫資訊。</p></div>
+<div class="panel"><h2>Blind SQL Injection</h2><p>即使頁面沒有直接顯示資料，攻擊者仍可能從不同回應行為推測查詢結果。教學時應在隔離實驗環境理解概念。</p></div></div>
+<div class="notice">本網站案例用於資安教育；請只在自己擁有或獲得授權的環境進行安全測試。</div></main></body></html>

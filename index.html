@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SQL Injection 教學實驗室</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><nav><a class="logo" href="index.html">🛡️ SQL Injection Lab</a>
+<div class="nav"><a href="lesson.html">原理</a><a href="simulator.html">互動實驗</a><a href="defense.html">防禦</a><a href="cases.html">案例</a><a href="quiz.html">測驗</a><a href="teacher.html">教師模式</a></div></nav></header>
+<main class="hero"><section><span class="badge">CYBERSECURITY EDUCATION</span><h1>SQL Injection<br><span>資安教學與實驗平台</span></h1>
+<p>透過安全的瀏覽器模擬環境，理解 SQL Injection 的成因、影響與防禦方法。</p>
+<div class="actions"><a class="btn primary" href="simulator.html">開始互動實驗</a><a class="btn" href="lesson.html">先學習原理</a></div></section>
+<section class="terminal"><div class="dots">● ● ●</div><pre>SELECT * FROM users
+WHERE username = 'input'
+AND password = 'input';
+
+<span class="bad">⚠ Vulnerable Query</span>
+
+<span class="good">✓ Learn how to prevent it</span></pre></section></main>
+<section class="cards"><div><b>01</b><h2>理解原理</h2><p>了解輸入資料如何被錯誤地當成 SQL 語法。</p></div>
+<div><b>02</b><h2>安全模擬</h2><p>在本機 JavaScript 模擬資料庫中觀察查詢結果。</p></div>
+<div><b>03</b><h2>學習防禦</h2><p>比較字串串接與參數化查詢的差異。</p></div>
+<div><b>04</b><h2>完成測驗</h2><p>用測驗檢查你的 SQL Injection 基礎觀念。</p></div></section>
+<footer>SQL Injection Lab · Educational Use Only</footer>
+</body></html>
